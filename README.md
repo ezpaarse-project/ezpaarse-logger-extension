@@ -1,5 +1,8 @@
 # ezpaarse-logger-extension
-Companion extension for [ezPAARSE logger](https://github.com/ezpaarse-project/ezpaarse-logger).
+
+Firefox and Chrome extension used to help ezPAARSE contributors for analyzing platforms URLs.
+
+It's a companion extension for [ezPAARSE logger](https://github.com/ezpaarse-project/ezpaarse-logger).
 
 Installation
 ===
