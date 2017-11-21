@@ -24,11 +24,11 @@
     {
       "matches": [
         "*://localhost/*",
-        "*://analogist.couperin.org/ezlogger/*",
-        "*://analyses.ezpaarse.org/ezlogger/*",
-        "*://analyses-preprod.ezpaarse.org/ezlogger/*",
-        "*://ang.couperin.org/ezlogger/*",
-        "*://ang-preprod.couperin.org/ezlogger/*"
+        "*://analogist.couperin.org/*",
+        "*://analyses.ezpaarse.org/*",
+        "*://analyses-preprod.ezpaarse.org/*",
+        "*://ang.couperin.org/*",
+        "*://ang-preprod.couperin.org/*"
       ],
       "js": ["content_script.js"]
     }
