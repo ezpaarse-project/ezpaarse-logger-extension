@@ -53,8 +53,10 @@ function setActivated(activated) {
 
   if (!activated) {
     chrome.webRequest.onCompleted.removeListener(networkListener);
+    chrome.webRequest.onBeforeRedirect.removeListener(networkListener);
   } else if (!isActivated()) {
     chrome.webRequest.onCompleted.addListener(networkListener, { urls: ['*://*/*'] }, ['responseHeaders']);
+    chrome.webRequest.onBeforeRedirect.addListener(networkListener, { urls: ['*://*/*'] }, ['responseHeaders']);
   }
 
   chrome.storage.local.set({ activated: activated });
