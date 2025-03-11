@@ -49,7 +49,7 @@ chrome.runtime.onMessage.addListener(request => {
 function setActivated(activated) {
   activated = !!activated;
 
-  chrome.browserAction.setIcon({ path: activated ? icons.enabled : icons.disabled });
+  chrome.action.setIcon({ path: activated ? icons.enabled : icons.disabled });
 
   if (!activated) {
     chrome.webRequest.onCompleted.removeListener(networkListener);
