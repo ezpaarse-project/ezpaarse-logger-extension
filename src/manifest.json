@@ -3,6 +3,11 @@
   "version": "2.3.0",
   "description": "Capture the web traffic and send it to the logger application",
   "manifest_version": 3,
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{9378b220-059c-434c-ad26-03043ecd7a09}"
+    }
+  },
   "background": {
     "service_worker": "background.js"
   },
