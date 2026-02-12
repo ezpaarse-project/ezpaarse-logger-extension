@@ -5,8 +5,8 @@ The extension captures the web traffic of the browser and sends it to the web ap
 
 ## Screenshots
 
-![extension screenshot](./store-assets/screenshot_01.jpg)
-![web app screenshot](./store-assets/screenshot_02.jpg)
+![extension screenshot](./store-material/screenshot_01.jpg)
+![web app screenshot](./store-material/screenshot_02.jpg)
 
 ## Installation
 
