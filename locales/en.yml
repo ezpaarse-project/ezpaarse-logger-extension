@@ -1,0 +1,14 @@
+memorizedRequests:
+  label: Memorized requests
+  helpText: Captured requests are stored in memory until the web app is connected
+app:
+  state: Application state
+  open: Open application
+  connected: Connected
+  disconnected: Disconnected
+capture:
+  title: Web traffic capture
+  active: Active
+  inactive: Inactive
+  enabledDesc: Your web traffic is being captured, open the webapp to analyze it.
+  disabledDesc: The extension is disabled, web traffic is not being captured.

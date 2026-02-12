@@ -1,0 +1,14 @@
+memorizedRequests:
+  label: Requêtes mémorisées
+  helpText: Les requêtes capturées sont stockées en mémoire jusqu'à ce que l'application web soit connectée
+app:
+  state: État de l'application
+  open: Ouvrir l'application
+  connected: Connectée
+  disconnected: Déconnectée
+capture:
+  title: Capture du traffic web
+  active: Actif
+  inactive: Inactif
+  enabledDesc: Votre traffic web est en cours de capture, ouvrez l'application pour l'analyser.
+  disabledDesc: L'extension est desactivée, le traffic web n'est pas capturé.

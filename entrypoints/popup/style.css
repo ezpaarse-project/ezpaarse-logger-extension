@@ -1,0 +1,12 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+#app {
+  width: 450px;
+  margin: 0 auto;
+  padding: 0;
+}

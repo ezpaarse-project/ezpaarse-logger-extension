@@ -1,0 +1,31 @@
+{
+  "name": "ezlogger-extension",
+  "description": "Capture the web traffic and send it to the logger application",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "npm run build:chrome && npm run build:firefox",
+    "build:chrome": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "npm run zip:chrome && npm run zip:firefox",
+    "zip:chrome": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "vue-tsc --noEmit",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "vue": "^3.5.27"
+  },
+  "devDependencies": {
+    "@vicons/material": "^0.13.0",
+    "@wxt-dev/i18n": "^0.2.4",
+    "@wxt-dev/module-vue": "^1.0.3",
+    "naive-ui": "^2.43.2",
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.2.4",
+    "wxt": "^0.20.13"
+  }
+}
